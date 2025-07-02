@@ -1,0 +1,164 @@
+/* Fuente Nunito */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.logo-box {
+  float: left;
+  width: 20%;
+}
+
+.logo-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.social-box {
+  float: right;
+  width: 20%;
+  text-align: right;
+  padding-top: 30px;
+}
+
+.icon-header {
+  width: 24px;
+  height: 24px;
+  margin: 10px;
+}
+
+.icons-container {
+  float: left;
+  width: 20%;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.nav-box {
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.ul-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.li-nav {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.icon-header {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.carrousel {
+  width: 100%;
+  height: 500px;
+}
+
+.contact-section {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.videos-section {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.image-classes {
+  width: 300px;
+  height: 250px;
+}
+
+.image-about {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.image-contact {
+  width: 50%;
+  height: auto;
+  padding: 20px;
+}
+
+.title-center {
+  text-align: center;
+}
+
+.section-header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.left-column {
+  justify-content: center;
+  align-items: center;
+}
+
+.left-column img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.right-column {
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.filter-text {
+  text-align: right;
+}
+
+.footer-section {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: gray;
+}
+
+.p-footer {
+  color: white;
+  text-align: right;
+}
